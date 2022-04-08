@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-  * Description: Prints a number and its last digit
+  * main - Prints a text according number
   *
   * Return: Always (Success)
   */
