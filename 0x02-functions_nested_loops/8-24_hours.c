@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-  * jack_bauer(void)
-  * Return: the sum of two numbers.
+  * jack_bauer - print every minutes of the day
   * @void - no argument
   */
 void jack_bauer(void)
