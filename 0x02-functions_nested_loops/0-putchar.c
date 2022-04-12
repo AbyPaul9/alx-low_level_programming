@@ -1,7 +1,7 @@
 #include "main.h"
 /**
   *main-main block
-  *Description:print -putchar in a new line
+  *Description:print _putchar in a new line
   *Requirement:this program returns zero
   */
 int main(void)
