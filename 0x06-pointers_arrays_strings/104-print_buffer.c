@@ -42,15 +42,12 @@ void print_buffer(char *b, int size)
 				printf("%c", *(b + i + x));
 
 			else
-				
 				printf(".");
 		}
 		if (x >= size)
 			continue;
-
 		printf("\n");
 	}
 	if (size <= 0)
-		
 		printf("\n");
 }
