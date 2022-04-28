@@ -5,7 +5,8 @@
  * @a:int
  * @b:int
  *
- * Return: int*/
+ * Return: int
+ */
 
 int check(int a, int b)
 {
