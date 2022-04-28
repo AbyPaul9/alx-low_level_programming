@@ -1,8 +1,8 @@
+#include _putchar(char *s)
 #include "main.h"
 
 /**
  * _puts_recursion - print a string
- * _putchar - print char
  * @s:string
  * Return:void
  */
