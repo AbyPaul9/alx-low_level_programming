@@ -1,4 +1,3 @@
-int _putchar(char *s);
 #include "main.h"
 
 /**
