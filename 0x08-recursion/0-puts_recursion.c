@@ -1,4 +1,4 @@
-int _putchar(char *s)
+int _putchar(char *s);
 #include "main.h"
 
 /**
