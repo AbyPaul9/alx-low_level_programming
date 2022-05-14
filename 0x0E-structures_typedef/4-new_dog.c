@@ -14,8 +14,8 @@ char *_strcpy(char *x, char *y);
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new_d;
-	new_d = malloc(sizeof(dog_t));
 
+	new_d = malloc(sizeof(dog_t));
 	if (new_d == NULL)
 		return (NULL);
 	if (name == NULL)
@@ -68,35 +68,20 @@ int _strlen(char *s)
 }
 
 /**
-
-   * _strcpy - copies string from y to x
-
-    *
-
-     * @x: pointer to destination of string
-
-      * @y: pointer to source string to copy from
-
-       *
-
-        * Return: pointer to dest
-
-	 */
+ * _strcpy - copies string from y to x
+ *
+ * @x: pointer to destination of string
+ * @y: pointer to source string to copy from
+ *
+ * Return: pointer to dest
+ */
 
 char *_strcpy(char *x, char *y)
-
 {
+	char *a = x;
 
-		char *a = x;
-
-
-
-			while (*y)
-
-						*a++ = *y++;
-
-				*a = '\0';
-
-					return (x);
-
+	while (*y)
+		*a++ = *y++;
+	*a = '\0';
+	return (x);
 }
