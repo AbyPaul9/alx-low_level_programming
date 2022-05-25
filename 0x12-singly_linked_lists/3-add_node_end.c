@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * _strlen - lenght of string
  * @s:char
@@ -15,14 +16,12 @@ unsigned int _strlen(char *s)
 	}
 	return (i);
 }
-
 /**
  * add_node_end - add new node at the end of the list
  * @head:pointer to ponter to lined list
  * @str : ponter to string inside the list
  * Return:pointer to a node at the end of the list
  */
-
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new, *last;
@@ -40,7 +39,6 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	new->len = _strlen(new->str);
 	new->next = NULL;
-	
 	if (*head == NULL)
 	{
 		*head = new;
@@ -48,7 +46,6 @@ list_t *add_node_end(list_t **head, const char *str)
 	else
 	{
 		last = *head;
-
 		while (last->next)
 		{
 			last = last->next;
