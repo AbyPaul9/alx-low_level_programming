@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 
 /**
  * set_bit - set value to 1 with given index
