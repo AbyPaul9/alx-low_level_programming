@@ -1,0 +1,9 @@
+# CC specifies which compiler we're using
+CC = gcc
+
+# SRC specifies which files to compile as part of the project
+SRC = main.c school.c
+
+# This is the target that compiles our executable
+all: $(SRC)
+	$(CC) $(SRC) -o school
