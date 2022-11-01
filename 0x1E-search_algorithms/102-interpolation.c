@@ -1,4 +1,4 @@
-#include "search_algorithm.h"
+#include "search_algos.h"
 
 /**
  * interpolation_search - implement  interpolation search  algo

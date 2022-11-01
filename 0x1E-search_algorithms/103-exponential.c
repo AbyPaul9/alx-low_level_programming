@@ -1,4 +1,4 @@
-#include "search_algorithm.h"
+#include "search_algos.h"
 
 /**
  * min - return the minimum between two number
